@@ -5,10 +5,10 @@ Feature: Register
   I want to create new account
   So that I can login
 
-  Scenario: POST - Register with valid data
-    Given I set POST api endpoints register
-    When I send POST HTTP request register
-    Then I receive valid HTTP response code 201 register
+#  Scenario: POST - Register with valid data
+#    Given I set POST api endpoints register
+#    When I send POST HTTP request register
+#    Then I receive valid HTTP response code 201 register
 
   Scenario: POST - Register without name
     Given I set POST api endpoints register

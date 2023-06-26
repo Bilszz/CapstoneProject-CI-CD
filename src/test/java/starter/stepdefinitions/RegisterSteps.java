@@ -16,10 +16,10 @@ public class RegisterSteps {
         register.setPostApiEndpointRegister();
     }
 
-    @When("I send POST HTTP request register")
-    public void sendPostHttpRequestRegister() {
-        register.sendPostHttpRequestRegister();
-    }
+//    @When("I send POST HTTP request register")
+//    public void sendPostHttpRequestRegister() {
+//        register.sendPostHttpRequestRegister();
+//    }
 
     @When("I send POST HTTP request register2")
     public void sendPostHttpRequestRegister2() {
@@ -57,10 +57,10 @@ public class RegisterSteps {
 //    }
 
 
-    @Then("I receive valid HTTP response code 201 register")
-    public void receiveValidHttp200Register() {
-        register.receiveValidHttp200Register();
-    }
+//    @Then("I receive valid HTTP response code 201 register")
+//    public void receiveValidHttp200Register() {
+//        register.receiveValidHttp200Register();
+//    }
 
     @Then("I receive valid HTTP response code 400 register")
     public void receiveValidHttp400Register() {

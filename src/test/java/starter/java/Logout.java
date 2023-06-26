@@ -20,7 +20,7 @@ public class Logout {
     @Step("I send POST HTTP request logout_user")
     public void sendPostHttpRequestLogoutUser() {
         SerenityRest.given()
-                .header("Authorization", " Bearer " + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjEsInJvbGUiOiJjdXN0b21lciIsImV4cCI6MTY5MDQxOTU1MH0.S0SgPnDTtzzWhe0TDf4dGirldPR3vyGyEmp5W1ijP0Q")
+                .header("Authorization", " Bearer " + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjEsInJvbGUiOiJjdXN0b21lciIsImV4cCI6MTY5MDQyMjg3MX0.bBDjift6PpET6OYmxE5UTvEhEkjKG7xOH2cBe9YLntY")
                 .post(setPostApiEndpointsLogoutUser()).then().statusCode(200);
     }
 
@@ -35,7 +35,7 @@ public class Logout {
     @Step("I send POST HTTP request token user expired")
     public void sendPOSTHTTPRequestTokenExpired() {
         SerenityRest.given()
-                .header("Authorization", " Bearer " + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjkwNDE5MzYzfQ.nntR6Wt-Ws5riAjBrBEov7e7v9P7BiPUek2MIeYksL0")
+                .header("Authorization", " Bearer " + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjEsInJvbGUiOiJjdXN0b21lciIsImV4cCI6MTY5MDQyMjgxMX0.UgJ-kxWpnF4y-TYHaGr8dxUVo3WKfnUxYdaF_JLFqUc")
                 .post(setPostApiEndpointsLogoutUser()).then().statusCode(401);
     }
 

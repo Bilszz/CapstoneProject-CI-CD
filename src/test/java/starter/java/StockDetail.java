@@ -197,7 +197,7 @@ public class StockDetail {
     //Ganti url disaat akan di run
     @Step("I set DELETE api endpoints stock_detail")
     public String setDELETEAPIedpointsStockDetail() {
-        return url + "stocks/details/27";
+        return url + "stocks/details/24";
     }
 
     @Step("I send DELETE HTTP request stock_detail")

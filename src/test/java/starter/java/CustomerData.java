@@ -127,7 +127,7 @@ public class CustomerData {
     //Ganti URL saat akan run
     @Step("I set DELETE api endpoints Customer_data")
     public String setDELETEEnspointsCustomerData() {
-        return url + "users/customers/22";
+        return url + "users/customers/27";
     }
 
     @Step("I send DELETE HTTP request Customer_data")
